@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trang chủ</title>
+	<meta name="description" content="match project">
+	<meta name="keyword" content="match">
+	<link rel="stylesheet"  href="normalize.css">
+	<link rel="stylesheet"  href="style.css">
+	<script language="javascript">
+	function Sum(){
+	var a=document.getElementById("a");
+	var b=document.getElementById("b");
+	var Sum=Number(a.value)+Number(b.value);
+	var sum=document.getElementById("sum");
+	sum.value= Sum;
+}
+	</script>
+</head>
+
+<body>
+<div id="container">
+<div id="menu">
+	<ul>
+		<li><a href="file:///E:/FACKKKKK%2012/HTML%20build/search/index.html">Trang Chủ</a></li>
+		<li><a href="file:///E:/FACKKKKK%2012/HTML%20build/search/Danhsachthanhvien.html">Thành Viên</a></li>
+		<li><a href="file:///E:/FACKKKKK%2012/HTML%20build/search/giaipt.html">Giải Pt bậc 2</a></li>
+		<li><a href="file:///E:/FACKKKKK%2012/HTML%20build/search/giaiptbacnhat.html">Giải Pt bậc 1</a></li>
+		<li><a href="#">Hỏi Đáp</a></li>
+		<li><a href="#">Liên Hệ</a></li>
+	</ul>
+</div>
+
+<div id="content"></div>
+<div id="header">
+	<div id="logo"><img src="../search/tải xuống.png" alt="MMT14" ></div>
+	<div id="slogan">
+		<p>MMT14 is the best!!!!</p>
+	</div>
+</div>
+
+<div class="call-to-action">
+	<h3>Welcome!</h3>
+	<p> Tính Tổng 2 số A và B</p>
+</div>
+
+<div class="row" id="intro">
+<div id="box1" class="col">
+	<h4> Tổng A và B</h4>
+	<p>Số A:<input type="text" id="a" placeholder="số A"></p>
+	<p>Số B:<input type="text" id="b" placeholder="số B"></p>
+	<p>Sum(A+B):<input type="text" id="sum" placeholder="Tổng" readonly="readonly"></p>
+	<input type="button" value="Sum" id="btnTinh" onclick="Sum()">
+</div>
+<div id="box2" class="col"></div>
+<div id="box3" class="col"></div>
+</div>
+
+<div id="footer">
+	<p>copyright &copy; 2018 brought you by MMT14 members</p>
+</div>
+</body>
+</html>
